@@ -966,7 +966,11 @@ span {
 }
 
 /*mobiles-mordern*/
-@media (min-width:200px) and (max-width:768px){
+@media   
+(min-device-width: 260px) 
+  and (max-device-width: 768px) 
+  and (min-device-height: 400px) 
+  and (max-device-height: 1000px) {
 .header {
     height: 8rem;
 }
@@ -1282,6 +1286,7 @@ span {
 @media (max-width:399px) {
 
 }
+
 
 
 
