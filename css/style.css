@@ -10,6 +10,11 @@
     scroll-behavior:smooth;
     font-family:'Poppins',sans-serif;
 }
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 /*
 :root {
@@ -1286,6 +1291,7 @@ span {
 @media (max-width:399px) {
 
 }
+
 
 
 
