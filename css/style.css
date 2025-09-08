@@ -10,11 +10,6 @@
     scroll-behavior:smooth;
     font-family:'Poppins',sans-serif;
 }
-html, body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
 
 /*
 :root {
@@ -971,18 +966,7 @@ span {
 }
 
 /*mobiles-mordern*/
-/* mobiles-modern */
-@media 
-   (min-width: 260px) 
-  and (max-width: 768px) 
-  and (min-height: 400px) 
-  and (max-height: 1000px) 
-   
-{
-    * {
-  outline: 1px solid red;
-}
-
+@media (min-width:200px) and (max-width:768px){
 .header {
     height: 8rem;
 }
@@ -1298,11 +1282,6 @@ span {
 @media (max-width:399px) {
 
 }
-
-
-
-
-
 
 
 
