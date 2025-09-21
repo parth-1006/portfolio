@@ -37,12 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
  const setDocHeight = () => {
   document.documentElement.style.setProperty('--doc-height', `${window.innerHeight}px`);
 };
 window.addEventListener('resize', setDocHeight);
 setDocHeight();
+
 
 
 
