@@ -38,6 +38,9 @@ body {
     background:var(--bg-color);
     color:var(--text-color);
 }
+html, body {
+  height: var(--doc-height);
+}
 
 .header {
     position:fixed;
